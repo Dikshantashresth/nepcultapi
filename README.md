@@ -1,4 +1,4 @@
-# 🌄 Places API – Nepal's Cultural & Natural Gems
+# 🌄 Nepcultapi API – Nepal's Cultural & Natural Gems
 
 A simple and clean RESTful API built with **Node.js** and **Express**, serving detailed information about **cultural and natural places in Nepal**. Perfect for small projects, prototypes, and educational purposes.  
 Data is stored in a **local JSON file**.
