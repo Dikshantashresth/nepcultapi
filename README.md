@@ -30,9 +30,10 @@ cd places-api
 npm install
 npm start
 The API will run at:
-http://localhost:3000
+http://localhost:3000 ```
 
-API Endpoints
+
+## API Endpoints
 1. Get all places
 Endpoint: GET /places
 
