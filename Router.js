@@ -6,7 +6,7 @@ const places = JSON.parse(loadplaces);
 router.get('/',(req,res)=>{
     return res.json(places);
 })
-router.get('/:province',(req,res)=>{
+router.get('/province/:province',(req,res)=>{
     const provinceParam = req.params.province.toLowerCase();
     const provinces = places.filter(p=>p.province.toLowerCase() === provinceParam);
     if(provinces.length>0){
@@ -17,7 +17,7 @@ router.get('/:province',(req,res)=>{
 
 })
 
-router.get('/:location',(req,res)=>{
+router.get('/location/:location',(req,res)=>{
     const locationParam = req.params.location.toLowerCase();
     const locations = places.filter(p=>p.location.toLowerCase() === locationParam);
     if(locations.length>0){
