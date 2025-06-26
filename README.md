@@ -30,62 +30,73 @@ git clone https://github.com/yourusername/places-api.git
 cd places-api
 npm install
 npm start
-The server will run at:
-http://localhost:3000
+```
 
-📌 API Endpoints
-1. Get All Places
-Endpoint: GET /places
+The server will run at:  
+**http://localhost:3000**
 
-Description: Returns a list of all places in the dataset.
+---
 
-Example:
+## 📌 API Endpoints
 
-bash
-Copy
-Edit
+### 1. Get All Places
+
+- **Endpoint**: `GET /places`  
+- **Description**: Returns a list of all places in the dataset.
+
+**Example:**  
+```
 GET http://localhost:3000/places
-2. Get Places by Province
-Endpoint: GET /places/province/:province
+```
 
-Description: Returns places located in the specified province.
+---
 
-Parameter: province – Province name (case-insensitive)
+### 2. Get Places by Province
 
-Example:
+- **Endpoint**: `GET /places/province/:province`  
+- **Description**: Returns places located in the specified **province**.  
+- **Parameter**: `province` – Province name (case-insensitive)
 
-bash
-Copy
-Edit
+**Example:**  
+```
 GET http://localhost:3000/places/province/bagmati
-3. Get Places by Location
-Endpoint: GET /places/location/:location
+```
 
-Description: Returns places located in the specified location.
+---
 
-Parameter: location – Location name (case-insensitive)
+### 3. Get Places by Location
 
-Example:
+- **Endpoint**: `GET /places/location/:location`  
+- **Description**: Returns places located in the specified **location**.  
+- **Parameter**: `location` – Location name (case-insensitive)
 
-bash
-Copy
-Edit
+**Example:**  
+```
 GET http://localhost:3000/places/location/kathmandu
-🚧 Rate Limiting
-Limit: 100 requests per IP per minute
+```
 
-Response if exceeded:
+---
 
-json
-Copy
-Edit
+## 🚧 Rate Limiting
+
+- **Limit**: 100 requests per IP per minute  
+- **Response if exceeded**:
+
+```json
 {
   "message": "Too many requests. Try again after a minute."
 }
-📎 Notes
-Data is stored in a static JSON file — ideal for MVPs and beginner projects.
+```
 
-app.set('trust proxy', 1) is used to handle client IPs properly when deployed behind services like Render.com.
+---
 
-📤 Deployment
-The API is deployed on Render.com.
+## 📎 Notes
+
+- Data is stored in a static JSON file — ideal for MVPs and beginner projects.
+- `app.set('trust proxy', 1)` is used to handle client IPs properly when deployed behind services like **Render.com**.
+
+---
+
+## 📤 Deployment
+
+The API is deployed on [Render.com](https://render.com).
