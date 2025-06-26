@@ -3,7 +3,7 @@
 This is a simple RESTful API built with Node.js and Express that serves information about cultural and natural places in Nepal. The data is stored in a JSON file, making it lightweight and easy to maintain without a database.
 
 ---
-
+# Endpoints
 Endpoint	Method	Description	Params	Response
 /places	GET	Returns all places	None	Array of all places
 /places/province/:province	GET	Returns places filtered by province (case-insensitive)	province (string)	Array of places in the province
