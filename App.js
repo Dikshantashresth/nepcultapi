@@ -4,6 +4,7 @@ const rateLimit = require('express-rate-limit');
 const placeRouter = require('./Router'); 
 const cors = require('cors')
 app.use(cors());
+app.set('trust proxy', 1);
 const limiter = rateLimit({
     windowMs: 60 * 1000, 
     max: 100,         
