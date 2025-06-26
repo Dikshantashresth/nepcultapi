@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const rateLimit = require('express-rate-limit'); // ✅ Correct variable name
-const placeRouter = require('./Router'); // ✅ Make sure 'Router.js' exists and is in the same folder
+const rateLimit = require('express-rate-limit'); 
+const placeRouter = require('./Router'); 
 const cors = require('cors')
 app.use(cors());
 const limiter = rateLimit({
