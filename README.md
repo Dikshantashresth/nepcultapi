@@ -1,23 +1,17 @@
-# nepcultapi API - Nepal Cultural & Natural Places
+# Places API - Nepal Cultural & Natural Places
 
-This is a simple RESTful API built with Node.js and Express that serves information about cultural and natural places in Nepal. The data is stored in a JSON file, making it lightweight and easy to maintain without a database.
+A simple RESTful API built with Node.js and Express that provides information about cultural and natural places in Nepal. Data is stored in a JSON file.
 
 ---
-# Endpoints
-Endpoint	Method	Description	Params	Response
-/places	GET	Returns all places	None	Array of all places
-/places/province/:province	GET	Returns places filtered by province (case-insensitive)	province (string)	Array of places in the province
-/places/location/:location	GET	Returns places filtered by location (case-insensitive)	location (string)	Array of places in the location
 
 ## Features
 
-- **JSON Data Storage:** All place data is stored in a JSON file (`Places.json`).  
-- **Express Backend:** RESTful routes created using Express.js.  
-- **Dynamic Filtering:** Filter places by province or location.  
-- **Rate Limiting:** Protects API from too many requests with `express-rate-limit`.  
-- **Proxy Trust:** Configured with `app.set('trust proxy', 1)` for cloud hosting.  
-- **CORS Enabled:** Allows cross-origin requests.  
-- **Deployed on Render.com:** Free and easy deployment.
+- JSON file data storage  
+- Express backend with dynamic filtering  
+- Rate limiting to protect the API  
+- Proper proxy trust setup for cloud deployment  
+- CORS enabled  
+- Deployed on Render.com
 
 ---
 
@@ -35,3 +29,54 @@ git clone https://github.com/yourusername/places-api.git
 cd places-api
 npm install
 npm start
+The API will run at:
+http://localhost:3000
+
+API Endpoints
+1. Get all places
+Endpoint: GET /places
+
+Description: Returns a list of all places in the dataset.
+
+Example Request:
+GET http://localhost:3000/places
+
+2. Get places by province
+Endpoint: GET /places/province/:province
+
+Parameters:
+
+province — Province name (case-insensitive)
+
+Description: Returns places in the specified province.
+
+Example Request:
+GET http://localhost:3000/places/province/bagmati
+
+3. Get places by location
+Endpoint: GET /places/location/:location
+
+Parameters:
+
+location — Location name (case-insensitive)
+
+Description: Returns places in the specified location.
+
+Example Request:
+GET http://localhost:3000/places/location/kathmandu
+
+Rate Limiting
+Maximum 100 requests per IP per minute.
+
+If exceeded, returns:
+
+json
+Copy
+Edit
+{
+  "message": "Too many requests. Try again after a minute."
+}
+Notes
+Data is stored in a JSON file for simplicity — great for small projects or prototypes.
+
+app.set('trust proxy', 1) is configured to handle client IPs correctly behind cloud proxies like Render.com.
