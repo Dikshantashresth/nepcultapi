@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Pashupatinath Temple",
+    "province": "Bagmati",
+    "location": "Kathmandu",
+    "type": "Religious",
+    "description": "Pashupatinath is one of the most sacred Hindu temples of Nepal, dedicated to Lord Shiva. Located on the banks of the Bagmati River, it is a UNESCO World Heritage Site and attracts thousands of pilgrims annually. The temple's stunning pagoda-style architecture and cremation rituals on the ghats reflect deep spiritual and cultural significance."
+  },
+  {
+    "id": 2,
+    "name": "Lumbini",
+    "province": "Lumbini",
+    "location": "Rupandehi",
+    "type": "Cultural Heritage",
+    "description": "Lumbini is the birthplace of Siddhartha Gautama, known as the Buddha. It is a pilgrimage site for Buddhists worldwide and is home to monasteries built by various countries. The Maya Devi Temple, sacred garden, and Ashoka Pillar are key highlights of this peaceful site."
+  },
+  {
+    "id": 3,
+    "name": "Mount Everest (Sagarmatha)",
+    "province": "Province 1",
+    "location": "Solukhumbu",
+    "type": "Natural",
+    "description": "Mount Everest, or Sagarmatha in Nepali, is the highest mountain in the world, standing at 8,848 meters. It's a dream destination for trekkers and climbers. The Everest Base Camp trek offers awe-inspiring views and cultural experiences among the Sherpa communities."
+  },
+  {
+    "id": 4,
+    "name": "Pokhara",
+    "province": "Gandaki",
+    "location": "Kaski",
+    "type": "Scenic",
+    "description": "Pokhara is known as the gateway to the Annapurna Circuit. It features breathtaking lakes, such as Phewa Lake, and offers a serene environment backed by mountain views. Adventure activities like paragliding, zip-lining, and hiking make Pokhara a top tourist destination."
+  },
+  {
+    "id": 5,
+    "name": "Rara Lake",
+    "province": "Karnali",
+    "location": "Mugu",
+    "type": "Natural",
+    "description": "Rara Lake is the largest lake in Nepal, located within Rara National Park. Its remote location and unspoiled beauty make it one of Nepal’s most tranquil and scenic destinations. The crystal-clear water, surrounding pine forests, and mountain backdrop create a dreamlike setting."
+  },
+  {
+    "id": 6,
+    "name": "Bhaktapur Durbar Square",
+    "province": "Bagmati",
+    "location": "Bhaktapur",
+    "type": "Architectural Heritage",
+    "description": "Bhaktapur Durbar Square is a well-preserved medieval royal palace complex featuring stunning examples of Newari architecture. It is known for the 55-Window Palace, Vatsala Temple, Nyatapola Temple, and its traditional pottery and woodcarving culture."
+  },
+  {
+    "id": 7,
+    "name": "Chitwan National Park",
+    "province": "Gandaki",
+    "location": "Chitwan",
+    "type": "Wildlife",
+    "description": "Chitwan National Park is Nepal's first national park and a UNESCO World Heritage Site. Known for its biodiversity, it is home to endangered species like the one-horned rhinoceros, Bengal tigers, and gharial crocodiles. Visitors enjoy jungle safaris, bird watching, and cultural experiences with the Tharu community."
+  },
+  {
+    "id": 8,
+    "name": "Annapurna Circuit",
+    "province": "Gandaki",
+    "location": "Multiple Districts",
+    "type": "Trekking",
+    "description": "The Annapurna Circuit is one of the most popular trekking routes in Nepal, offering diverse landscapes, from subtropical forests to alpine peaks. Trekkers experience traditional villages, hot springs, and spectacular views of the Annapurna and Dhaulagiri ranges."
+  },
+  {
+    "id": 9,
+    "name": "Swayambhunath (Monkey Temple)",
+    "province": "Bagmati",
+    "location": "Kathmandu",
+    "type": "Religious",
+    "description": "Swayambhunath, popularly known as the Monkey Temple, is an ancient religious complex atop a hill in the Kathmandu Valley. It is a sacred Buddhist pilgrimage site with a stunning stupa, intricate architecture, and panoramic views of Kathmandu."
+  },
+  {
+    "id": 10,
+    "name": "Gosaikunda Lake",
+    "province": "Bagmati",
+    "location": "Rasuwa",
+    "type": "Natural",
+    "description": "Gosaikunda Lake is a sacred alpine freshwater lake located in the Langtang National Park. It holds religious importance in Hinduism and Buddhism and attracts pilgrims during the Janai Purnima festival. Surrounded by snow-capped peaks, the lake offers breathtaking trekking routes."
+  },
+    {
+    "id": 11,
+    "name": "Janakpur",
+    "province": "Province 2",
+    "location": "Dhanusha",
+    "type": "Cultural Heritage",
+    "description": "Janakpur is famous for its ancient temples and is the birthplace of Goddess Sita. The city hosts the grand Vivah Panchami festival celebrating the marriage of Lord Rama and Sita. It showcases beautiful Mithila art and architecture."
+  },
+  {
+    "id": 12,
+    "name": "Gorkha Durbar",
+    "province": "Gandaki",
+    "location": "Gorkha",
+    "type": "Historical",
+    "description": "Gorkha Durbar is the ancestral palace of the Shah dynasty, from where King Prithvi Narayan Shah started the unification of Nepal. Perched atop a hill, it offers panoramic views of the Himalayan range and holds great historical significance."
+  },
+  {
+    "id": 13,
+    "name": "Dhulikhel",
+    "province": "Bagmati",
+    "location": "Kavrepalanchok",
+    "type": "Scenic",
+    "description": "Dhulikhel is a charming town known for its stunning sunrise and sunset views over the Himalayas. It is also a gateway to several hiking trails and offers a peaceful retreat close to Kathmandu."
+  },
+  {
+    "id": 14,
+    "name": "Bardiya National Park",
+    "province": "Lumbini",
+    "location": "Bardiya",
+    "type": "Wildlife",
+    "description": "Bardiya National Park is the largest and most undisturbed national park in Nepal’s Terai region. It is home to Bengal tigers, one-horned rhinoceroses, elephants, and a variety of birds. The park offers jungle safaris and river rafting experiences."
+  },
+  {
+    "id": 15,
+    "name": "Tansen",
+    "province": "Lumbini",
+    "location": "Palpa",
+    "type": "Cultural Heritage",
+    "description": "Tansen is a historic hill town known for its Newari architecture, traditional crafts, and vibrant culture. The town offers breathtaking views of the Himalayas and is famous for its palaces, temples, and old bazaars."
+  },
+  {
+    "id": 16,
+    "name": "Ilam",
+    "province": "Province 1",
+    "location": "Ilam",
+    "type": "Scenic",
+    "description": "Ilam is renowned for its rolling tea gardens and beautiful landscapes. The region is a major producer of tea and offers tranquil hiking trails, waterfalls, and panoramic views of the eastern Himalayas."
+  },
+  {
+    "id": 17,
+    "name": "Manakamana Temple",
+    "province": "Gandaki",
+    "location": "Gorkha",
+    "type": "Religious",
+    "description": "Manakamana Temple is a sacred Hindu temple dedicated to the goddess Bhagwati. Pilgrims visit the temple via a cable car ride that offers breathtaking views of the surrounding mountains and valleys."
+  },
+  {
+    "id": 18,
+    "name": "Chandragiri Hills",
+    "province": "Bagmati",
+    "location": "Kathmandu",
+    "type": "Scenic",
+    "description": "Chandragiri Hills offers panoramic views of Kathmandu Valley and the Himalayan range. The hill is accessible by a modern cable car and is a popular spot for hiking and picnics."
+  },
+  {
+    "id": 19,
+    "name": "Khaptad National Park",
+    "province": "Sudurpashchim",
+    "location": "Doti",
+    "type": "Natural",
+    "description": "Khaptad National Park is known for its rich biodiversity and spiritual significance. The park has meadows, forests, and several religious sites. It is a peaceful destination for trekking and wildlife observation."
+  },
+  {
+    "id": 20,
+    "name": "Bandipur",
+    "province": "Gandaki",
+    "location": "Tanahun",
+    "type": "Cultural Heritage",
+    "description": "Bandipur is a picturesque hilltop town with preserved traditional Newari culture and architecture. The town offers stunning mountain views and a quiet atmosphere away from urban hustle."
+  }
+]
