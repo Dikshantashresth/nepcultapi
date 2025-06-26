@@ -1,29 +1,31 @@
-A simple and clean RESTful API built with Node.js and Express, serving detailed information about cultural and natural places in Nepal. Perfect for small projects, prototypes, and educational purposes.
-Data is stored in a local JSON file.
+# 🌄 Places API – Nepal's Cultural & Natural Gems
 
-🚀 Features
-📁 JSON file as data storage
+A simple and clean RESTful API built with **Node.js** and **Express**, serving detailed information about **cultural and natural places in Nepal**. Perfect for small projects, prototypes, and educational purposes.  
+Data is stored in a **local JSON file**.
 
-⚡ RESTful endpoints with filtering by province and location
+---
 
-🛡️ Rate limiting (100 requests/min/IP)
+## 🚀 Features
 
-🌐 CORS enabled
+- 📁 JSON file as data storage  
+- ⚡ RESTful endpoints with filtering by province and location  
+- 🛡️ Rate limiting (100 requests/min/IP)  
+- 🌐 CORS enabled  
+- ☁️ Configured for cloud deployment (e.g. Render.com)  
+- 🔐 Proxy trust set up using `app.set('trust proxy', 1)`
 
-☁️ Configured for cloud deployment (e.g. Render.com)
+---
 
-🔐 Proxy trust set up using app.set('trust proxy', 1)
+## 🛠️ Getting Started
 
-🛠️ Getting Started
-✅ Prerequisites
-Node.js
+### ✅ Prerequisites
 
-npm
+- Node.js  
+- npm
 
-📦 Installation & Setup
-bash
-Copy
-Edit
+### 📦 Installation & Setup
+
+```bash
 git clone https://github.com/yourusername/places-api.git
 cd places-api
 npm install
@@ -84,3 +86,6 @@ Edit
 Data is stored in a static JSON file — ideal for MVPs and beginner projects.
 
 app.set('trust proxy', 1) is used to handle client IPs properly when deployed behind services like Render.com.
+
+📤 Deployment
+The API is deployed on Render.com.
