@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs')
-const loadplaces = fs.readFileSync('places.json');
+const loadplaces = fs.readFileSync('Places.json');
 const places = JSON.parse(loadplaces);
 router.get('/',(req,res)=>{
     return res.json(places);
